@@ -1,0 +1,112 @@
+/*Body font*/
+body
+{
+background-color:#fff;
+font-family: 'Droid Sans', sans-serif;
+text-decoration: none;
+}
+
+
+/*Title font styling*/
+ul.rss-title
+{
+    margin: 0;
+    padding: 0;
+    height: 33px;
+}
+
+ul.rss-title li
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-indent:1px;
+}
+
+ul.rss-title a
+{
+    background: #f50;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 0;
+    text-decoration: strong;
+    border-bottom: 0px solid #fff;
+    font-size: 1.5em
+} 
+
+
+/*RSS Feed styling*/
+#rssdata ul.rss-items
+{
+    display: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Droid Sans', serif;
+}
+
+#rssdata ul.rss-items li
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-indent:1px;
+}
+
+#rssdata ul.rss-items a
+{
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 2px 2px;
+    background: #ddd;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+
+#rssdata ul.rss-items a:hover
+{
+    background: #f50;
+    color: #fff;
+    text-decoration: none;
+} 
+
+
+/*RSS Footer styling*/
+ul.rss-footer
+{
+    background: #f50;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    font-size: 1em
+}
+
+ul.rss-footer li
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-indent:1px;
+}
+
+ul.rss-footer a
+{
+    background: #f50;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    font-size: 1em
+} 
